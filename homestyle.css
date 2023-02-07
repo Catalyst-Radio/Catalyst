@@ -1,0 +1,164 @@
+body{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Metal Mania';
+	
+}
+
+.navbar{
+	width: 100%;
+	margin: auto;
+	padding: 55px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: 'Metal Mania';
+	position: sticky;
+}
+
+.logo{
+	width: 22%;
+	cursor:pointer;
+	margin-left: 50px;
+	border: 1px solid black;
+}
+
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	font-size: 28px;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-size: larger;
+}
+
+
+
+.homeContent{
+	width: 100%;
+	position: relative;
+	top: 15%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: black;
+}
+
+.homeContent h1{
+	font-size: 70px;
+	margin-top: 70px;
+	color: black;
+}
+
+.homeContent p{
+	margin: 20px auto;
+	font-weight: 100;
+	font-size: 30px;
+	line-height: 25px;
+
+}
+
+button{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid black;
+	background: transparent;
+	color: black;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+span{
+	background: #ccc;
+	height: 100%;
+	width: 0;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.5s;
+}
+
+button:hover span{
+	width: 100%;
+}
+
+button:hover{
+	border: none;
+}
+
+.contactbox{
+	display: flex;
+}
+
+.contactleft{
+	flex-basis: 70%;
+	padding: 40px 60px;
+	
+}
+
+.contactright{
+	flex-basis: 30%;
+	padding: 40px ;
+
+	
+}
+
+.container{
+	width: 80%;
+	margin: 50px auto;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.inputrow{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.inputrow .inputgroup{
+	flex-basis: 45%;
+}
+
+input{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	outline: none;
+	padding-bottom: 5px;
+	
+}
+
+textarea{
+	width: 100%;
+	border: 1px solid #ccc;
+	outline: none;
+	padding: 10px;
+}
+
+label{
+margin-bottom: 6px;
+color: darkgray;
+
+}
+
+.contactleft h3{
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+figcaption{
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+}
